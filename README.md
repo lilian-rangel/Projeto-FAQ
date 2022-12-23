@@ -1,5 +1,3 @@
-# Projeto-FAQ
-
 <h1 align="center">Projeto FAQ</h1> <br>
 
 <p>Projeto para criação de um modelo de página de perguntas frequentes entregue num prazo de 7 dias.<br>
@@ -31,7 +29,7 @@ Com esse projeto aprendi a manipular o DOM pelo parentElement como opção alter
 <hr>
 <h2 align="center">Demo</h2>
 <p align="center">
-<img width="470" src="assets/img/faq-gif.gif">
+<img width="100%" src="assets/img/faq-gif.gif">
 </p>
 
 <hr>
