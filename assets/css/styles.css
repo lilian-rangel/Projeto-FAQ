@@ -1,17 +1,16 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 :root {
-    --clr-gold: #c59d5f;
+    --main-color: #fda702;
     --clr-grey-1: hsl(209, 61%, 16%);
     --clr-white: #fff;
-    --ff-primary: "Roboto", sans-serif;
-    --ff-secondary: "Open Sans", sans-serif;
     --fixed-width: 620px;
     --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     --radius: 0.5rem;
@@ -26,9 +25,15 @@
 }
 
 .title h2 {
-    color: var(--clr-gold);
-    font-family: "Great Vibes", cursive;
+    font-size: 1.7rem;
+    font-weight: 600;
+    background: var(--main-color);
+    color: var(--clr-white);
     text-align: center;
+    text-transform: uppercase;
+    clip-path: polygon(100% 0, 93% 50%, 86% 99%, 0% 100%, 7% 47%, 13% 0%);
+    width: 50%;
+    margin: 0 auto;
 }
 
 .section {
@@ -60,6 +65,8 @@
     margin-bottom: 0;
     letter-spacing: var(--spacing);
     color: var(--clr-grey-1);
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 .question-btn {
@@ -67,7 +74,7 @@
     background: transparent;
     border-color: transparent;
     cursor: pointer;
-    color: var(--clr-gold);
+    color: var(--main-color);
     transition: var(--transition);
 }
 
