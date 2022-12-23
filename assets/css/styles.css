@@ -107,3 +107,20 @@
   .show-text .plus-icon {
     display: none;
   }
+
+  /* media querys*/
+
+  @media (max-width: 768px) {
+    .title h2 {
+        font-size: 1.5rem;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .title h2 {
+        font-size: 1.2rem;
+    }
+    .question-title p {
+        font-size: 1rem;
+    }
+  }
